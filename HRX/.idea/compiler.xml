@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springsecurity-jwt-demo" />
+        <module name="Items-restful-web" />
+        <module name="activemq-sender" />
+        <module name="Items-restful" />
+        <module name="HelloStarter-demo" />
+        <module name="microservice-consumer-rest" />
+        <module name="microservice-server" />
+        <module name="springboot-elastisearch-demo" />
+        <module name="springboot-redis" />
+        <module name="untitled" />
+        <module name="springdata-jpa-demo" />
+        <module name="HelloStarter-test" />
+        <module name="springboot" />
+        <module name="auctionsys" />
+        <module name="springboot-elasticsearch" />
+        <module name="generateMybatisMapping" />
+        <module name="ssm" />
+        <module name="microservice-consumer-feign" />
+        <module name="item-solrj-springboot" />
+        <module name="springsecurity-springboot-demo" />
+        <module name="activemq-receiver" />
+        <module name="springboot-minio" />
+        <module name="miscroservice-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activemq-receiver" target="1.8" />
+      <module name="activemq-sender" target="1.8" />
+      <module name="auctionsys" target="1.8" />
+      <module name="generateMybatisMapping" target="1.5" />
+      <module name="HelloStarter-demo" target="1.5" />
+      <module name="HelloStarter-test" target="1.8" />
+      <module name="item-solrj-springboot" target="1.8" />
+      <module name="Items-restful" target="1.8" />
+      <module name="Items-restful-web" target="1.8" />
+      <module name="microservice-consumer-feign" target="1.8" />
+      <module name="microservice-consumer-rest" target="1.8" />
+      <module name="microservice-server" target="1.8" />
+      <module name="miscroservice-provider" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-elasticsearch-demo" target="1.8" />
+      <module name="springboot-elastisearch-demo" target="1.8" />
+      <module name="springboot-minio" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springdata-jpa-demo" target="1.8" />
+      <module name="springsecurity-jwt-demo" target="1.8" />
+      <module name="springsecurity-springboot-demo" target="1.8" />
+      <module name="ssm" target="1.8" />
+      <module name="untitled" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HelloStarter-test" options="-parameters" />
+      <module name="Items-restful" options="-parameters" />
+      <module name="Items-restful-web" options="-parameters" />
+      <module name="activemq-receiver" options="-parameters" />
+      <module name="activemq-sender" options="-parameters" />
+      <module name="auctionsys" options="-parameters" />
+      <module name="item-solrj-springboot" options="-parameters" />
+      <module name="microservice-consumer-feign" options="-parameters" />
+      <module name="microservice-consumer-rest" options="-parameters" />
+      <module name="microservice-server" options="-parameters" />
+      <module name="miscroservice-provider" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-elasticsearch-demo" options="-parameters" />
+      <module name="springboot-elastisearch-demo" options="-parameters" />
+      <module name="springboot-minio" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springdata-jpa-demo" options="-parameters" />
+      <module name="springsecurity-jwt-demo" options="-parameters" />
+      <module name="springsecurity-springboot-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

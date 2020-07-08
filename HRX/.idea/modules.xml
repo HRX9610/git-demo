@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HRX.iml" filepath="$PROJECT_DIR$/.idea/HRX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloStarter-demo/HelloStarter-demo.iml" filepath="$PROJECT_DIR$/HelloStarter-demo/HelloStarter-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloStarter-test/HelloStarter-test.iml" filepath="$PROJECT_DIR$/HelloStarter-test/HelloStarter-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Items-restful/Items-restful.iml" filepath="$PROJECT_DIR$/Items-restful/Items-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Items-restful-web/Items-restful-web.iml" filepath="$PROJECT_DIR$/Items-restful-web/Items-restful-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activemq-receiver/activemq-receiver.iml" filepath="$PROJECT_DIR$/activemq-receiver/activemq-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activemq-sender/activemq-sender.iml" filepath="$PROJECT_DIR$/activemq-sender/activemq-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auctionsys/auctionsys.iml" filepath="$PROJECT_DIR$/auctionsys/auctionsys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxf-client-test/cxf-client-test.iml" filepath="$PROJECT_DIR$/cxf-client-test/cxf-client-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxf-service-demo/cxf-service-demo.iml" filepath="$PROJECT_DIR$/cxf-service-demo/cxf-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generateMybatisMapping/generateMybatisMapping.iml" filepath="$PROJECT_DIR$/generateMybatisMapping/generateMybatisMapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-solrj-demo/item-solrj-demo.iml" filepath="$PROJECT_DIR$/item-solrj-demo/item-solrj-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-solrj-springboot/item-solrj-springboot.iml" filepath="$PROJECT_DIR$/item-solrj-springboot/item-solrj-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-feign/microservice-consumer-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-feign/microservice-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-rest/microservice-consumer-rest.iml" filepath="$PROJECT_DIR$/microservice-consumer-rest/microservice-consumer-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-server/microservice-server.iml" filepath="$PROJECT_DIR$/microservice-server/microservice-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miscroservice-provider/miscroservice-provider.iml" filepath="$PROJECT_DIR$/miscroservice-provider/miscroservice-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elastisearch-demo/springboot-elastisearch-demo.iml" filepath="$PROJECT_DIR$/springboot-elastisearch-demo/springboot-elastisearch-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-minio/springboot-minio.iml" filepath="$PROJECT_DIR$/springboot-minio/springboot-minio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdata-jpa-demo/springdata-jpa-demo.iml" filepath="$PROJECT_DIR$/springdata-jpa-demo/springdata-jpa-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springsecurity-jwt-demo/springsecurity-jwt-demo.iml" filepath="$PROJECT_DIR$/springsecurity-jwt-demo/springsecurity-jwt-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springsecurity-springboot-demo/springsecurity-springboot-demo.iml" filepath="$PROJECT_DIR$/springsecurity-springboot-demo/springsecurity-springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+    </modules>
+  </component>
+</project>

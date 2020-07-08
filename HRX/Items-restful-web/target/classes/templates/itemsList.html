@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>查询商品列表</title>
+    <script type="text/javascript">
+        function deleteItems() {
+             document.getElementById("listForm").submit();
+        }
+    </script>
+</head>
+<body>
+   <form action="#" method="post">
+       查询条件:
+       <table width="100%" border=1>
+           <tr>
+               <td>商品名称: <input type="text" name="item.name" /><input
+                   type="submit" value="查询" />
+               </td>
+           </tr>
+       </table>
+   </form>
+   商品列表:
+   <input type="button" value="批量删除" onclick="deleteItems()" />
+   <input type="button" value="添加商品" onclick="javascript:location='/toAdd'" />
+   <form id="listForm" action="#" method="post">
+       <table width="100%" border=1>
+           <tr>
+               <td>商品名称</td>
+               <td>商品价格</td>
+               <td>生产日期</td>
+               <td>商品描述</td>
+               <td>图片</td>
+           </tr>
+           <tr th:each="items:${itemsList}">
+               <td th:text="${items.name}"></td>
+               <td th:text="${items.price}"></td>
+               <td th:text="${#dates.format(items.time,'yyyy-MM-dd hh:mm:ss')}"></td>
+               <td th:text="${items.detail}"></td>
+               <td th:text="${items.pic}"></td>
+           </tr>
+
+       </table>
+
+   </form>
+</body>
+</html>

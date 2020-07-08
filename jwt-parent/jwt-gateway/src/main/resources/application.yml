@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9999
+spring:
+  application:
+    name: jwt-gateway
+zuul:
+  routes:
+    api-auth:
+      path: /doLogin
+      service-id: jwt-auth-center
+    api-microservice:
+      path: /microservice/**
+      service-id: jwt-microservice
+  #sensitive-headers:
